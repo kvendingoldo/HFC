@@ -1,0 +1,56 @@
+.holyfcats{ width: 960px; position: relative; margin: 0 auto; padding: 0px;}
+.holyfcats:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.holyfcats .row{}
+.holyfcats .row:before,.row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.holyfcats .row:after{clear: both; }
+.holyfcats .row{zoom: 1;}
+
+.holyfcats .wrap-col{margin:10px;}
+
+.holyfcats .col-1-2, .holyfcats .col-1-3, .holyfcats .col-2-3, .holyfcats .col-1-4, .holyfcats .col-2-4, .holyfcats .col-3-4, .holyfcats .col-1-5, .holyfcats .col-2-5, .holyfcats .col-3-5, .holyfcats .col-4-5, .holyfcats .col-1-6, .holyfcats .col-2-6, .holyfcats .col-3-6, .holyfcats .col-4-6, .holyfcats .col-5-6{float:left; display: inline-block;}
+
+.holyfcats .col-full{width:100%;}
+
+.holyfcats .col-1-2{width:50%;}
+
+.holyfcats .col-1-3{width:33.33%;}
+.holyfcats .col-2-3{width:100%;}
+
+.holyfcats .col-1-4{width:33.33%;}
+.holyfcats .col-2-4{width:50%;}
+.holyfcats .col-3-4{width:75%;}
+
+.holyfcats .col-1-5{width:20%;}
+.holyfcats .col-2-5{width:40%;}
+.holyfcats .col-3-5{width:60%;}
+.holyfcats .col-4-5{width:80%;}
+
+.holyfcats .col-1-6{width:16.66%;}
+.holyfcats .col-2-6{width:33.33%;}
+.holyfcats .col-3-6{width:50%;}
+.holyfcats .col-4-6{width:66.66%;}
+.holyfcats .col-5-6{width:83.33%;}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.holyfcats{width:768px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.holyfcats{width:100%;}
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	.holyfcats{width:100%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	.holyfcats{width:100%;}
+	.holyfcats .col-1-3, .holyfcats .col-2-3{width:100%;}
+	.holyfcats .col-1-4{width:50%;}
+	.holyfcats .col-1-6, .holyfcats .col-2-6, .holyfcats .col-3-6, .holyfcats .col-4-6, .holyfcats .col-5-6{width:100%;}
+}
+
+@media only screen and (max-width: 479px) {
+	.holyfcats, .holyfcats .col-1-2, .holyfcats .col-1-3, .holyfcats .col-2-3, .holyfcats .col-1-4, .holyfcats .col-2-4, .holyfcats .col-3-4, .holyfcats .col-1-5, .holyfcats .col-2-5, .holyfcats .col-3-5, .holyfcats .col-4-5, .holyfcats .col-1-6, .holyfcats .col-2-6, .holyfcats .col-3-6, .holyfcats .col-4-6, .holyfcats .col-5-6{width:100%;}
+}

@@ -1,0 +1,157 @@
+
+/* ------------------Style--------------------- */
+html, body {width:100%; padding:0; margin:0;}
+body {background: #999999 url("../images/bg.jpg");color: #ffffff;font: 14px/25px Arial, Helvetica, sans-serif;}
+
+a{color: #FFFFFF;text-decoration: none;}
+a:hover {color: #000000;; text-decoration: none;}
+
+a.button{cursor: pointer;color: #ffffff;line-height: 14px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;	background: #3F3F3F;border:1px solid #ffffff; -webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;}
+a.button {	display: inline-block;	text-decoration: none;	padding: 6px 12px 6px 12px;}
+a.button:hover{}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* ------------------Header-------------------- */
+header {margin-bottom: 15px; margin-top: 20px;}
+header .wrap-header{height: 150px; background:#333333;border-radius: 5px;}
+header #logo { width:100%; position: absolute;}
+/* ------------------Navigation---------------- */
+nav {margin:15px 0px;}
+nav .wrap-nav{height: 80px; background: #ff5a00;border-radius: 5px;}
+
+.menu ul {list-style: none;margin: 0;padding: 0;}
+.menu  ul li {position: relative;float: left;padding: 6px 5px 0px 5px; margin: 17px;}
+.menu  ul li:hover {background: #9b2d30;border-radius: 5px;}
+.menu  ul li a {font-size: 16px; line-height:20px;color:#ffffff;display: block;padding: 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; text-transform:uppercase; }
+.menu  ul li:hover a {}
+.menu .current{background: #900020;border-radius: 5px;}
+
+.minimenu{display:none;}
+.minimenu{position: relative;margin: 0px;background:#ff5a00; border: 1px solid #CCC;}
+.minimenu div{overflow: hidden;position: relative;font: 18px/40px 'PT Sans Narrow';color: #ffffff;text-align:center;text-transform:uppercase;font-weight:bold;}
+.minimenu select{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);	cursor: pointer;}
+
+/* -------------------------------------------- */
+/* ------------------Featured---------------- */
+
+.featured{margin:15px 0px;}
+.featured .wrap-featured{background:#333333;}
+.featured .wrap-featured .slider{padding: 20px;}
+
+/* -------------------------------------------- */
+/* ------------------Content------------------- */
+#content {margin:15px 0px;}
+#content .wrap-content{background: #333333;border-radius: 5px;}
+
+.block01 {padding: 10px;}
+.block01 .box{background: #ff5a00; padding: 20px 10px; }
+.block01 h2{font-size:23px; line-height:30px; font-weight:normal;}
+.block01 p{font-size:16px;}
+.block01 .more{text-align: right;}
+
+
+.block02 { margin:10px; color: #959595;}
+.block02 article{ clear: both; margin:10px 0px;background: #040404;}
+.block02 article h2{font-size:20px; line-height:25px; font-weight:normal;}
+.block02 article .info{font-style:italic; background: #131313; padding: 5px 10px;}
+.block02 article img{margin:5px;}
+.block02 .box{margin-bottom:20px;}
+.block02 .heading{padding:5px 0px; border-bottom:3px solid #a1a1a1;}
+.block02 .heading h2{font-size:24px; font-weight:normal; display:inline; color: #ffffff;}
+.block02 .content{ margin: 15px 0px ;padding:15px; background: #040404;}
+.block02 .content .list{background: #1E1E1E; padding: 10px;}
+.block02 .content ul{ font-size:14px; list-style-type:circle; margin-left:20px;}
+.block02 .content ul li{padding:5px;}
+
+.block03 { margin:10px; color: #959595;}
+.block03 article{ clear: both; margin:20px 0px;background: #040404; padding: 20px;border-radius: 5px;}
+.block03 article h2{font-size:25px; line-height:30px; font-weight:normal;}
+.block03 article .info{font-style:italic; padding: 10px 0px;}
+.block03 article img{ margin-bottom:10px; width: 100%;}
+.block03 .box{margin-bottom:20px;}
+.block03 .heading{padding:5px 0px; border-bottom:3px solid #a1a1a1;}
+.block03 .heading h2{font-size:24px; font-weight:normal; display:inline; color: #ffffff;}
+.block03 .content{ margin: 15px 0px ;padding:15px; background: #040404;}
+.block03 .content .list{background: #1E1E1E; padding: 10px;}
+.block03 .content ul{ font-size:14px; list-style-type:circle; margin-left:20px;}
+.block03 .content ul li{padding:5px;}
+
+/* -------------------------------------------- */
+/* ------------------Footer-------------------- */
+footer {margin-top: 15px;}
+.wrap-footer{background: #141414; border-top:5px solid #ff5a00;alpha(Opacity=80); opacity: 0.8;border-radius: 5px;}
+
+.block09 {padding: 10px;}
+.block09 .box{margin-bottom:20px; color: #959595;}
+.block09 .heading{padding:5px 0px;}
+.block09 .heading h2{font-size:18px; font-weight:normal; display:inline; color: #ffffff; text-transform: uppercase;}
+.block09 .content{ margin: 15px 0px ;}
+.block09 .content ul{ font-size:14px;}
+.block09 .content ul li{padding:5px 0; border-bottom: 1px dotted #333333;}
+.block09 .content .tag a{padding: 10px; background: #ff5a00; margin: 0px 5px 5px 0px; float: left;}
+.block09 .content .tag a:hover{color: #ffffff; background: #a25f2a;}
+.block09 .content p{margin-bottom:10px; }
+
+
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+.copyright{text-align:center; background:#333333;filter: alpha(Opacity=80); opacity: 0.8;  padding:10px 0px;border-radius: 2px;}
+.copyright a{text-decoration:underline;border-radius: 5px;}
+
+
+#pagi{margin: 50px auto; padding: 20px 0px;list-style: none;width: 250px;}
+#pagi li {float: left;margin-right: 10px;}
+#pagi li a {display: block;	text-decoration: none; color: #717171;font: bold 16px Arial, sans-serif;padding: 7px; background: #ffffff;}
+#pagi li a.current, #pagi li a:hover {color: #ffffff;	background: #000000;}
+
+
+	
+/*для флажков*/
+
+	#layer4 {margin-top: -5px; height: 150px;  position: absolute; right: 151px;   z-index: 90;}
+	#layer3 {margin-top: -5px; height: 150px;  position: absolute; right: 98px;   z-index: 90;}
+	#layer2 {margin-top: -5px; width: 150px;   position: absolute; right: -33px;   z-index: 90;}
+	#layer1 {margin-top: -5px; height: 150px;  position: absolute; right: -8px;  z-index: 90;}
+
+/*Обнуляем отступы*/
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;   
+}
+ 
+/*Задаём параметры блока, содержащего основное меню*/
+#menu {
+    display:block;
+    position:absolute;
+	top:-3px;
+    z-index: 7;
+}
+ 
+/*Задаём стили для разделов нашего меню*/
+#menu > li {
+    display:inline-block;
+    height:20px;
+    position:relative;
+}
+ 
+/*Стили для скрытого выпадающего меню*/
+#menu > li > ul {
+    position:absolute;
+    top:120px;
+    display:none;   
+}
+ 
+/*Делаем скрытую часть видимой*/
+#menu > li:hover > ul {
+    display:block;  
+}	
+	
+/*для флажков*/
+	
+	
